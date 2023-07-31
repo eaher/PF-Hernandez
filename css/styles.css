@@ -608,12 +608,12 @@ footer div a img {
   justify-self: end;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .mobile {
     display: none;
   }
 }
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   .mobile {
     display: block;
   }
