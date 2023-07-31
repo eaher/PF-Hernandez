@@ -40,7 +40,7 @@
 }
 
 body {
-  height: 100vh;
+  height: auto;
   display: grid;
   grid-template-areas: "header header header header" "nav nav nav nav" "main main main main" "section section section section " "footer footer footer footer";
 }
