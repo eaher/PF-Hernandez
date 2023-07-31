@@ -583,7 +583,7 @@ button:hover {
 
 footer {
   background-color: black;
-  height: 80px;
+  height: auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
@@ -608,12 +608,12 @@ footer div a img {
   justify-self: end;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .mobile {
     display: none;
   }
 }
-@media screen and (min-width: 768px) {
+@media (min-width: 576px) {
   .mobile {
     display: block;
   }
@@ -674,10 +674,10 @@ footer div a img {
     height: 70vh;
   }
   .main {
-    height: 90vh;
+    height: auto;
   }
   .main2 {
-    height: 75vh;
+    height: auto;
   }
   footer {
     grid-area: footer;
